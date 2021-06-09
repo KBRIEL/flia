@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.left{
+  float: left;
+  background-color: rgb(3, 3, 110);
+ 
+  height: 90px;
+  /* border : black 4px dashed; */
+}
+.left2{
+  float: left;
+  background-color: rgb(3, 3, 110);
+  
+  height: 110px;
+  /* border : black 4px dashed; */
+  margin-top: 100px;
+}
+.center{
+  float: center;
+  align-items: center;
+ 
+  
+}
+.right{
+  background-color: rgb(3, 3, 110);
+  float: right;
+  color: blanchedalmond;
+
+}
+.right2{
+  background-color: rgb(3, 3, 110);
+  float: right;
+ 
+  border-radius: 50%;
+
+}
+
+.twitter{
+  background-color:rgb(174, 174, 196) ;
+
+}
+.twitterBody{
+ 
+
+  padding: 50px;
+  display: grid;
+ 
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-column-gap:60px ;
+  grid-row-gap:30px ;
+  justify-content: space-between;
+  height: auto;
+  box-shadow:  2px 5px 10px opx rgba(232, 239, 241, 0.5);
+}
+.tweet{
+  background: rgb(245, 239, 239);
+}
+.ubar{
+   background-color: rgb(3, 3, 110);
+
+
+  padding: 50px;
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-column-gap:30px ;
+  grid-row-gap:30px ;
+  justify-content: space-between;
+  height: 150px;
+  box-shadow:  2px 5px 10px opx rgba(232, 239, 241, 0.5);
+  
+}
+.searchBar{
+  justify-content: center;
+  background-color: rgb(3, 3, 110);
+  
+  
+  height: 30px;
+  
+}
+
+.followers{
+  background-color: rgb(8, 77, 204);
+  color: antiquewhite;
+  min-width: 350px;
+  min-height: 600px;
+  
+}
+.data{
+  background-color: rgb(8, 77, 204);
+  color: antiquewhite;
+  min-width: 250px;
+  min-height: 600px;
+  align-items:center;
+}
+
+
+.foto{
+  
+  width: 200px;
+  justify-content: right;
+}
+.btnRadius{
+  border-radius: 15%;
+}
+.radius{
+  border-radius: 50%;
+}
+.buscador{
+  background-color:green;
+  width: 40%;
+  align-self: center;
+}
+
+.log{
+  background-color:yellow;
+  width: 20%;
+}
+
+.search{
+  justify-content: center;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: zindex-modal;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+ }
+
+ .navbar-nav {
+  display: flex;
+  flex-direction: column; 
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+ }
+  .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .dropdown-menu {
+    position: static;
+  }
